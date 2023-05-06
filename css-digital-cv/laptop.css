@@ -1,0 +1,149 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  list-style: none;
+}
+.icon-number {
+  width: 45px;
+  height: 45px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+  background-color: blue;
+  padding: 20px;
+}
+/*----------- goals---------- */
+#goals{
+  background-color: rgb(107, 134, 170);
+}
+#goals .container h2 {
+   padding: 10px 0px;
+   border-bottom: 1px solid black;
+   color: blue;
+   padding-left: 10px;
+}
+.goals-item{
+  padding: 20px 0px;
+  border-bottom: 1px solid black;
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  line-height: 1.5;
+}
+.icon-flag{
+  grid-row: 1/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+
+/*----------- team---------- */
+#team{
+
+  background-color: rgb(107, 134, 170);
+}
+#team .container h2 {
+  padding: 10px 0px;
+  border-bottom: 1px solid black;
+  color: blue;
+  padding-left: 10px;
+}
+.team-item{
+ padding: 20px 0px;
+ display: grid;
+ grid-template-columns: 20% 1fr;
+ line-height: 1.5;
+}
+.icon-user{
+ grid-row: 1/3;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 30px;
+}
+
+
+
+/*----------- timeline---------- */
+#timeline{
+  grid-column: 3/4;
+  grid-row: 1/3;
+  background-color: rgb(107, 134, 170);
+}
+#timeline .container h2 {
+  padding: 10px 0px;
+  border-bottom: 1px solid black;
+  color: blue;
+  padding-left: 10px;
+}
+.timeline-item{
+ padding: 20px 0px;
+ border-bottom: 1px solid black;
+ display: grid;
+ grid-template-columns: 20% 1fr;
+ line-height: 1.5;
+}
+.icon-timeline{
+ grid-row: 1/3;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+
+
+/*----------- scopes---------- */
+#scopes{
+
+  background-color: rgb(107, 134, 170);
+}
+#scopes .container h2 {
+  padding: 10px 0px;
+  border-bottom: 1px solid black;
+  color: blue;
+  padding-left: 10px;
+}
+#scopes .container ul {
+  display: flex;
+  line-height: 1.3;
+}
+.scopes-item  {
+  padding: 20px;
+  line-height: 1.3;
+}
+.scopes-item b {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+/*----------- primary---------- */
+#primary{
+  background-color: rgb(107, 134, 170);
+
+}
+#primary .container h2 {
+  padding: 10px 0px;
+  border-bottom: 1px solid black;
+  color: blue;
+  padding-left: 10px;
+}
+.primary-item{
+ padding: 20px 0px;
+ display: grid;
+ grid-template-columns: 20% 1fr;
+ line-height: 1.5;
+ padding-right: 10px;
+}
+.icon{
+ grid-row: 1/3;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
