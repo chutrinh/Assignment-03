@@ -1,0 +1,131 @@
+@media (min-width: 768px)and (max-width:1200px){
+
+  .wrapper{
+    max-width: 768px;
+    margin: 0px auto;
+  }
+/* //////nav bar///////// */
+#nav-bar{
+    width: 100%;
+}
+#nav-bar > .container{
+    width: 100%;
+}
+#nav-bar > .container > ul{
+  margin-bottom: 0px;
+}
+#nav-bar > .container > ul > li div {
+  display: none;
+} 
+#nav-bar > .container > ul li a {
+  padding: 20px 0px;
+}
+
+/*////////////// about /////////////*/
+
+#about .container{
+    width: 100%;
+}
+#about .container h1{
+  font-size: 28px;
+}
+#personal-info ul{
+  padding-left: 0px;
+}
+#target,
+#personal-info{
+    padding-left: 0px;
+}
+#personal-info{
+    margin-left: 50px;
+}
+
+/* job info */
+
+#job-info > .container{
+    width: 100%;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 1fr 550px 500px;
+}
+#job-info > .container h1{
+  font-size: 24px;
+  font-weight: bold;
+}
+.list-hobby{
+  padding-left: 10px;
+  gap: 10px;
+}
+.list-hobby > li > p{
+  font-size: 12px;
+}
+/* chứng nhận giải thưởng*/
+#certificate > .container{
+    width: 100%;
+}
+#certificate > .container h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#certificate > .container{
+  grid-template-columns: 1fr 1fr;
+}
+
+.certificate-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 13px;
+    padding-right: 20px;
+}
+#certificate > .container > .certificate-detail > img{
+    width: 100%;
+}
+
+/*///////// project ///////////////*/
+#project .container{
+    width: 100%;
+}
+
+#project .container > .section-title {
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 1fr;
+    column-gap: 5px;
+}
+.table-project > tbody > tr > td {
+    font-size: 14px;
+}
+.project-info{
+    display: grid;
+    grid-template-columns: 40% 1fr 1fr 1fr 1fr;
+}
+.project-info > div{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.icon-user-1 + span{
+    grid-column: 3/-1;
+}
+.project-1 >.table-project tbody > tr td {
+  font-size: 12px;
+}
+.project-2 >.table-project tbody > tr td {
+  font-size: 12px;
+  padding-bottom: 13px;
+}
+.project-3 >.table-project tbody > tr td {
+  font-size: 12px;
+}
+/* footer */
+#footer .container{
+    width: 100%;
+}
+}
